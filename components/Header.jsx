@@ -1,4 +1,3 @@
-import React from 'react';
 import css from "../styles/Header.module.css";
 import Image from "next/image";
 import Logo from "../assets/Logo.png";
