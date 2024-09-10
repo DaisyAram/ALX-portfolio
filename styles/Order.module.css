@@ -36,7 +36,7 @@
   align-items: center;
 }
 .status>*{
-    fill: var(--themeRed);
+    fill: var(--themeOrange);
 }
 .spinner {
     position: absolute;

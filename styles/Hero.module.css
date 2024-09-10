@@ -17,7 +17,7 @@
   padding: 1rem;
   border-radius: 2rem;
   font-size: 0.8rem;
-  color: var(--themeRed);
+  color: var(--themeOrange);
   font-weight: bold;
 }
 .heroText {
@@ -56,7 +56,7 @@
   gap: 1rem;
   background-color: white;
   box-shadow: var(--shadow);
-  color: var(--themeRed);
+  color: var(--themeOrange);
 }
 .contactUs > div {
   background: rgb(59, 208, 59);

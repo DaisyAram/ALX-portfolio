@@ -7,7 +7,7 @@
     background: linear-gradient(1deg, rgba(255, 237, 237, 0.85) 0%, rgba(255, 255, 255, 0) 14rem);
 }
 .container>span {
-    color: var(--themeRed);
+    color: var(--themeOrange);
     font-weight: bold;
 }
 .logo {
@@ -25,5 +25,5 @@
     gap: 1rem;
 }
 .social>* {
-    fill: var(--themeRed);
+    fill: var(--themeOrange);
 }

@@ -26,7 +26,7 @@
 
 .menu > li:hover {
   cursor: pointer;
-  color: var(--themeRed);
+  color: var(--themeOrange);
   font-size: 1.15rem;
   transition: 0.5s;
   transform: scale(1.1);
@@ -38,7 +38,7 @@
   left: 0;
   width: 100%;
   height: 2px; /* Adjust the height of the line */
-  background-color: var(--themeRed);
+  background-color: var(--themeOrange);
 }
 
 .rightside {
@@ -56,7 +56,7 @@
 .badge {
   position: absolute;
   display: flex;
-  background-color: var(--themeRed);
+  background-color: var(--themeOrange);
   color: white;
   border-radius: 50%;
   width: 20px;

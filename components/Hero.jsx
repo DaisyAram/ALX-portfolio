@@ -20,7 +20,7 @@ export default function Hero() {
           <span>Be The Fastest</span>
           <span>In Delivering</span>
           <span>
-            Your <span style={{ color: "var(--themeRed)" }}>Pizza</span>
+            Your <span style={{ color: "var(--themeOrange)" }}>Pizza</span>
           </span>
         </div>
 
@@ -40,8 +40,9 @@ export default function Hero() {
         </div>
 
         <div className={css.contactUs}>
+          <a href={`https://wa.me/${+254718879941}`}>
           <span>Contact Us</span>
-
+          </a>
           <div>
             <UilPhone color="white" />
           </div>
@@ -55,7 +56,7 @@ export default function Hero() {
           <div className={css.details}>
             <span>Italian Pizza</span>
             <span>
-              <span style={{ color: "var(--themeRed)" }}>$</span> 7.49
+              <span style={{ color: "var(--theme)" }}>$</span> 7.49
             </span>
           </div>
         </div>

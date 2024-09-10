@@ -6,7 +6,7 @@
   align-items: center;
 }
 .heading > :nth-child(1) {
-  color: var(--themeRed);
+  color: var(--themeOrange);
   font-size: 1rem;
 }
 .heading > :nth-child(2),

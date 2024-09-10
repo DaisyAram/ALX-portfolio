@@ -92,7 +92,7 @@ export default function Cart() {
                       <td>{pizza.quantity}</td>
                       <td>{pizza.price * pizza.quantity}</td>
                       <td
-                        style={{ color: "var(--themeRed)", cursor: "pointer" }}
+                        style={{ color: "var(--)", cursor: "pointer" }}
                         onClick={() => handleRemove(i)}
                       >
                         x

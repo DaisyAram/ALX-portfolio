@@ -31,7 +31,7 @@ export default function Menu({ pizzas }) {
               </Link>
               <span>{pizza.name}</span>
               <span>
-                <span style={{ color: "var(--themeRed)" }}>$ </span>{" "}
+                <span style={{ color: "var(--themeOrange)" }}>$ </span>{" "}
                 {pizza.price[1]}
               </span>
             </div>

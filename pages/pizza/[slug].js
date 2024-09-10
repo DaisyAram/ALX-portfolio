@@ -58,7 +58,7 @@ export default function Pizza({ pizza }) {
           <span>{pizza.details}</span>
 
           <span>
-            <span style={{ color: "var(--themeRed)" }}>$</span>{" "}
+            <span style={{ color: "var(--themeOrange)" }}>$</span>{" "}
             {pizza.price[Size]}
           </span>
 

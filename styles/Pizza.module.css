@@ -37,7 +37,7 @@
   display: flex;
   gap: 0.6rem;
   font-weight: normal;
-  color: var(--themeRed);
+  color: var(--themeOrange);
   font-size: 0.8rem;
 }
 .sizeVariants > div {
@@ -45,11 +45,11 @@
   align-items: center;
   justify-content: center;
   padding: 0.3rem 1.5rem;
-  border: 2px solid var(--themeRed);
+  border: 2px solid var(--themeOrange);
   border-radius: 2rem;
 }
 .sizeVariants > div:hover {
-  background-color: var(--themeRed);
+  background-color: var(--themeOrange);
   color: white;
   cursor: pointer;
 }
@@ -69,7 +69,7 @@
   font-size: 1rem;
 }
 .selected {
-  background-color: var(--themeRed);
+  background-color: var(--themeOrange);
   color: white;
   cursor: pointer;
 }

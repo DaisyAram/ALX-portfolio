@@ -54,6 +54,6 @@
 }
 .buttons>:nth-child(1){
     background-color: transparent;
-    color: var(--themeRed);
-    border: 2px solid var(--themeRed);
+    color: var(--themeOrange);
+    border: 2px solid var(--themeOrange);
 }

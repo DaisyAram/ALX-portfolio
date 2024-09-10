@@ -11,12 +11,12 @@ body {
 }
 
 :root{
-  --themeRed: #F54748;
-  --themeBlack: #2E2E2E;
-  --pink: #FDECEC;
+  --themeOrange: #ff5722;
+  --themeBlack: #331107;
+  --pink: #e4af83;
   --gray: #828282;
   --shadow: -4px 12px 20px -2px rgba(0, 0, 0, 0.19);
-  --background-color:  linear-gradient(180deg, rgba(255, 237, 237, 0.85) 0%, rgba(255, 255, 255, 0) 30rem);
+  --background-color:  linear-gradient(180deg, rgba(247, 203, 166, 0.85) 0%, rgba(255, 255, 255, 0) 30rem);
   --cartBack : rgba(255, 255, 255, 0.38);
 }
 
@@ -32,7 +32,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--themeRed);
+  background: var(--themeOrange);
   border-radius: 1rem;
 }
 
@@ -60,5 +60,5 @@ a {
   color: white;
   font-size: 1.1rem;
   cursor: pointer;
-  background-color:var(--themeRed);
+  background-color:var(--themeOrange);
 }
