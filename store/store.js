@@ -1,5 +1,5 @@
 //manages shopping cart; enables easy add and remove or clear items from cart
-import create from "zustand";
+import { create } from "zustand";
 
 export const useStore = create((set) => ({
   //cart

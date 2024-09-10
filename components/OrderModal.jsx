@@ -26,7 +26,7 @@ export default function OrderModal({ opened, setOpened, PaymentMethod }) {
     {
       typeof window !== "undefined" && localStorage.setItem("order", id);
     }
-    router.push("/order/${id}");
+    router.push(`/order/${id}`);
   };
 
   return (
