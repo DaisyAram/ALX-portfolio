@@ -16,7 +16,7 @@
 .services {
   display: flex;
   margin-top: 3rem;
-  gap: 3rem;
+  gap: 9rem;
   align-items: center;
   justify-content: center;
 }
@@ -28,16 +28,15 @@
   gap: 1rem;
 }
 .ImageWrapper {
-    width: 10rem;
-    height: 10rem;
+  width: 10rem;
+  height: 10rem;
 }
-.feature>:nth-child(2){
-    font-weight: bold;
-
+.feature > :nth-child(2) {
+  font-weight: bold;
 }
-.feature>:nth-child(3){
-    color: var(--gray);
-    word-wrap: break-word;
-    width: 20rem;
-    text-align: center;
+.feature > :nth-child(3) {
+  color: var(--gray);
+  word-wrap: break-word;
+  width: 20rem;
+  text-align: center;
 }
