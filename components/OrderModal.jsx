@@ -40,7 +40,7 @@ export default function OrderModal({ opened, setOpened, PaymentMethod }) {
       overlayOpacity={0.55}
       overlayBlur={3}
       opened={opened}
-      onClose={() => setOpened(null)}
+      onClose={() => setOpened(false)}
     >
       {/* Modal content */}
       <form action="" onSubmit={handleSubmit} className={css.formContainer}>
