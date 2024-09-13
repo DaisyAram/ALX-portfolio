@@ -41,6 +41,9 @@ export default function OrderModal({ opened, setOpened, PaymentMethod }) {
       overlayBlur={3}
       opened={opened}
       onClose={() => setOpened(false)}
+       zIndex={9999} // Add this line
+      position="center"
+
     >
       {/* Modal content */}
       <form action="" onSubmit={handleSubmit} className={css.formContainer}>
