@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <MantineProvider>
-    <Component {...pageProps} />
+      <Component {...pageProps} />
     </MantineProvider>
     </>
   );
