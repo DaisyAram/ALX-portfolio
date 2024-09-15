@@ -36,7 +36,7 @@ export default function Hero() {
       {/* right side */}
       <div className={css.right}>
         <div className={css.imageContainer}>
-          <Image src={HeroImage} alt="" layout="responsive" />
+          <Image src={HeroImage} alt="" layout="intrinsic" />
         </div>
 
         <div className={css.contactUs}>
@@ -50,7 +50,7 @@ export default function Hero() {
 
         <div className={css.Pizza}>
           <div>
-            <Image src={Pizza1} alt="" objectFit="cover" layout="fill" />
+            <Image src={Pizza1} alt="" objectFit="cover" layout="intrinsic" />
           </div>
 
           <div className={css.details}>

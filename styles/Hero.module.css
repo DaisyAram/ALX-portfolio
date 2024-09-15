@@ -1,6 +1,7 @@
 .container {
   display: flex;
   position: relative;
+ 
 }
 .left {
   display: flex;
@@ -98,4 +99,40 @@
 .Pizza:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .imageContainer {
+    width: 90vw;
+    height: auto;
+    position: static;
+    margin-bottom: 2rem;
+  }
+  .contactUs {
+    position: static;
+    bottom: initial;
+    left: initial;
+    transform: none;
+    background-color: transparent;
+    color: var(--themeOrange);
+    margin-bottom: 10px;
+    margin-top: 0px;
+  
+  }
+  
+  .Pizza {
+    position: static;
+    bottom: initial;
+    left: initial;
+    width: 100%;
+  }
+  
 }
