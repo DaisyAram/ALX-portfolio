@@ -4,6 +4,7 @@
   font-weight: bold;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 .heading > :nth-child(1) {
   color: var(--themeOrange);
@@ -40,4 +41,12 @@
     word-wrap: break-word;
     width: 20rem;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    gap: 2rem;
+    
+  }
 }
