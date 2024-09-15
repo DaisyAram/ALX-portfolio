@@ -5,15 +5,23 @@ import { UilShoppingBag, UilReceipt } from "@iconscout/react-unicons";
 import { useStore } from "../store/store";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { UilBars } from "@iconscout/react-unicons";
 
 export default function Header() {
   const state = useStore((state) => state);
   const [Order, setOrder] = useState("");
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     setOrder(localStorage.getItem("order"));
   }, []);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   const items = useStore((state) => state.cart.pizzas.length);
+
   return (
     <div className={css.header}>
       {/* logo side */}
@@ -22,8 +30,13 @@ export default function Header() {
         <span>Dine Dash </span>
       </div>
 
+      {/*hamburger */}
+      <div className={css.hamburger} onClick={toggleMenu}>
+        <UilBars size={35} color={"#2E2E2E"} />
+      </div>
+
       {/* menu side */}
-      <ul className={css.menu}>
+      <ul className={`${css.menu} ${menuOpen ? css.menuOpen : ""}`}>
         <li>
           <Link href="../">Home</Link>
         </li>
