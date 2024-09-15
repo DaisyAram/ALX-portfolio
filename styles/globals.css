@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-
 html,
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   color: var(--themeBlack);
   background: var(--background-color);
-  overflow-x:hidden;
-  
-    min-height: 100vh;
-    margin-bottom: 60px; /* Adjust based on your footer height */
-  
-  
+  overflow-x: hidden;
 }
 
 :root{
@@ -25,8 +19,7 @@ body {
   --cartBack : rgba(255, 255, 255, 0.38);
 }
 
-
-/* width */
+/*width*/
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -43,9 +36,9 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
+  border-radius: 1rem;
   background: #555;
 }
-
 
 a {
   color: inherit;

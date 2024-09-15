@@ -30,7 +30,9 @@ export default function Header() {
         <li>
           <Link href="#Menu">Menu</Link>
         </li>
-        <li>Contact</li>
+        <li>
+        <a href={`https://wa.me/${+254718879941}`}>Contact</a>
+        </li>
       </ul>
 
       {/* right side */}

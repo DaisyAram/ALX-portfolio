@@ -28,7 +28,7 @@ export default function Services() {
             <Image src={s2} alt="" objectFit="cover" layout="intrinsic" />
           </div>
 
-          <span>Easy to Order</span>
+          <span>Quick Delivery</span>
           <span>Delivery that is always on time even faster</span>
         </div>
         <div className={css.feature}>
@@ -36,7 +36,7 @@ export default function Services() {
             <Image src={s3} alt="" objectFit="cover" layout="intrinsic" />
           </div>
 
-          <span>Easy to Order</span>
+          <span>Serving Quality</span>
           <span>Not only fast for us, quality is also number one</span>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
 
         <div className={css.heroText}>
-          <span>Be The Fastest</span>
+          <span>Fastest</span>
           <span>In Delivering</span>
           <span>
             Your <span style={{ color: "var(--themeOrange)" }}>Pizza</span>

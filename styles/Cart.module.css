@@ -57,3 +57,18 @@
     color: var(--themeOrange);
     border: 2px solid var(--themeOrange);
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding: 0.1rem;
+    }
+    .table {
+        border-spacing: 0.3rem;
+        order: 1;
+    }
+   .card {
+    order: 2;
+   }    
+}

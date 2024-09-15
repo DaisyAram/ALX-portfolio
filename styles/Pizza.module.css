@@ -73,3 +73,26 @@
   color: white;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .imageWrapper {
+    width: 100%;
+  }
+  .right {
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    padding: 0.4rem 2rem;
+    margin-top: 1rem;
+  }
+  .sizeVariants {
+    padding: 0.1rem 2rem;
+    margin-bottom: 1rem;
+  }
+}
