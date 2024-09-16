@@ -2,7 +2,7 @@
 
 ## Tagline
 
-Savor the Flavor, Effortlessly Delivered
+Your Favourite Meals, Just a Dash Away!
 
 ## Team
 
@@ -30,7 +30,7 @@ Kelvin Njuiri and Daisy Mumbo, both serving as Full stack Engineers, will collab
 
 Dine Dash aims to connect customers with their favorite foods, providing a convenient and efficient solution for busy individuals, families, and office workers.
 
-### What FUDO Will Not Solve
+### What Dine Dash Will Not Solve
 
 Dine Dash will not address the challenges associated with food preparation, quality control, or delivery logistics at partner restaurants. While the platform aims to streamline the ordering and delivery process for customers, it does not directly influence the food quality, preparation time, or delivery speed at participating restaurants.
 
